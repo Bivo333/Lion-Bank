@@ -34,7 +34,7 @@ h1, h2,h3, h4, h5 ,h6 {
 .header {
   height: 122px;
   position: relative;
-  margin-bottom: 200px;
+  margin-bottom: 126px;
 }
 
 .logo {
@@ -100,23 +100,25 @@ h1, h2,h3, h4, h5 ,h6 {
   font-size: 58px;
   font-weight: bold;
   line-height: 1.1;
-  margin-bottom: 18px;
+  margin-bottom: 25px;
 }
 
 .hero__subtitle {
   font-size: 18px;
   color:#D3A557;
-  margin-bottom: 43px;
+  margin-bottom: 38px;
 }
 
 .btn {
   background: #DFB56D;
   border-radius: 3px;
-  padding: 16px 39px;
+  padding: 17px 39px;
   color: #fff;
+  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
   text-decoration: none;
+  display: inline-block;
 }
 
 .btn:hover {
