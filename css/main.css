@@ -3,11 +3,120 @@ body {
   color: #fff;
   font-size: 16px;
   line-height: 1.42;
-  background: #29282d;
+  background: #29282D;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smothing: grayscale;
 }
 
 a {
   color: inherit;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2,h3, h4, h5 ,h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1141px;
+}
+
+.header {
+  height: 122px;
+  position: relative;
+  margin-bottom: 200px;
+}
+
+.logo {
+  display: block;
+  position: absolute;
+  top: 33px;
+  left: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 250px;
+}
+
+.contacts {
+  position: absolute;
+  top: 27px;
+  right: 0px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 55px;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #D3A557;
+  ; 
+}
+
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.contacts__dropdown-title {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #D3A557;
+}
+
+.hero__text-section {
+  width: 510px;
+}
+
+.hero__title {
+  font-size: 58px;
+  font-weight: bold;
+  line-height: 1.1;
+  margin-bottom: 18px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  color:#D3A557;
+  margin-bottom: 43px;
+}
+
+.btn {
+  background: #DFB56D;
+  border-radius: 3px;
+  padding: 16px 39px;
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #D3A557;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
 }
