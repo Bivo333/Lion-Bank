@@ -134,6 +134,23 @@ h1, h2,h3, h4, h5, h6 {
   box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
 }
 
+.btn--color--ginger {
+  background: #DFB56D;
+}
+
+.btn--color--ginger:hover {
+  background: #D3A557;
+  box-shadow: 0px 8px 35px rgba(223, 181, 109, 0.35);
+}
+
+.btn--color--brown {
+  background: #2B2B2B;
+}
+
+.btn--color--brown:hover {
+background: #DFB56D;
+}
+
 .section {
   margin-bottom: 127px;
 }
@@ -147,17 +164,30 @@ h1, h2,h3, h4, h5, h6 {
 .offers__item {
   min-height: 449px;
   background: #fff;
-  border-radius: 0px 0px 5px 5px;
+  border-radius: 5px 5px 5px 5px;
   display: inline-block;
   margin-right: 23px;
   width: 362px;
   color: #000;
+  overflow: hidden;
 }
 
 .offers__header {
   min-height: 144px;
   margin-bottom: 33px;
   position: relative;
+}
+
+.offers__header:before {
+  content: "";
+width: 284px;
+height: 284px;
+display: block;
+border-radius: 50%;
+position: absolute;
+top: -150px;
+right: -110px;
+background: #ccc;
 }
 
 .offers__header-img {
@@ -170,6 +200,18 @@ h1, h2,h3, h4, h5, h6 {
 
 .offers__item:last-child {
   margin-right: 0;
+}
+
+.offers__item--theme--grey .offers__header::before {
+background: #a5a5a4;
+}
+
+.offers__item--theme--blue .offers__header::before {
+  background: #556180;
+}
+
+.offers__item--theme--gold .offers__header::before {
+  background: #978455;
 }
 
 .offers__content {
