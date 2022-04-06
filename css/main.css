@@ -31,6 +31,10 @@ h6 {
   font-weight: normal;
 }
 
+p {
+  margin-top: 0;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -129,7 +133,7 @@ h6 {
 .btn {
   background: #DFB56D;
   border-radius: 3px;
-  padding: 17px 39px;
+  padding: 17px 38px 16px 39px;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -160,8 +164,8 @@ h6 {
   background: #DFB56D;
 }
 
-.section {
-  margin-bottom: 83px;
+.offers {
+  margin-bottom: 119px;
 }
 
 .section__title {
@@ -172,11 +176,11 @@ h6 {
 
 .offers__item {
   min-height: 449px;
+  width: 362px;
   background: #fff;
   border-radius: 5px 5px 5px 5px;
   display: inline-block;
-  margin-right: 23px;
-  width: 362px;
+  margin-right: 22px;  
   color: #000;
   overflow: hidden;
 }
@@ -223,7 +227,7 @@ h6 {
 }
 
 .offers__content {
-  padding: 32px 22px;
+  padding: 33px 20px 18px 22px;
 }
 
 .offers__title {
@@ -245,10 +249,11 @@ h6 {
 
 .offers__price {
   font-size: 36px;
+  margin-bottom: 4px;
 }
 
 .offers__prices {
-  margin-bottom: 47px;
+  margin-bottom: 43px;
 }
 
 .offers__price-desc {
@@ -256,7 +261,7 @@ h6 {
 }
 
 .offers__prices-desc {
-  width: 159px;
+  width: 161px;
   color: #666;
 }
 
@@ -265,7 +270,7 @@ h6 {
 }
 
 .news {
-    margin-bottom: 55px;
+  margin-bottom: 53px;
 }
 
 .news__item {
@@ -295,7 +300,7 @@ h6 {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 25px 29px;
+  padding: 24px 29px;
   min-width: 140px;
 }
 
@@ -314,7 +319,8 @@ h6 {
   text-align: center;
 }
 
-.pager__display,.pager__list {
+.pager__display,
+.pager__list {
   display: inline-block;
   vertical-align: middle;
 }
@@ -325,10 +331,10 @@ h6 {
 
 .pager__item {
   display: inline-block;
-  vertical-align: middle;  
+  vertical-align: middle;
 }
 
-.pager__item--active .pager__link{ 
+.pager__item--active .pager__link {
   background: #353439;
 }
 
@@ -337,6 +343,7 @@ h6 {
   width: 32px;
   height: 32px;
   border-radius: 50%;
+  position: relative;
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
@@ -351,4 +358,46 @@ h6 {
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+}
+
+.about:before,
+.about__desc {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.about:before {
+  content: "";
+  width: 490px;
+  height: 505px;
+  margin-top: 145px;
+  background: url("/img/decor/chess.png") center center / cover no-repeat;
+}
+
+.about__desc {
+  background: #202123;
+  padding: 35px 161px 0px 81px;
+  width: 785px;
+  margin-top: -408px;
+  margin-left: 354px;
+}
+
+.about__title {
+  font-weight: bold;
+  font-size: 36px;
+  margin-top: 34px;
+  margin-bottom: 37px;
+}
+
+.about__dest-text {
+  margin-bottom: 71px;
+  line-height: 1.6875;
+}
+
+.about__dest-text p {
+  margin-bottom: 68px;
+}
+
+.about__dest-text p:last-child {
+  margin-bottom: 0;
 }
