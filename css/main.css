@@ -385,7 +385,7 @@ p {
   width: 785px;
   margin-top: 242px;
   margin-left: -141px;
-  margin-bottom: 79px;
+  margin-bottom: 50px;
 }
 
 .about__title {
@@ -413,6 +413,7 @@ p {
 }
 
 .footer{
+  margin-top: 28px;
   height: 152px;
   position: relative;
 }
