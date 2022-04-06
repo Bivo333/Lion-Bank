@@ -4,6 +4,7 @@ body {
   font-size: 16px;
   line-height: 1.42;
   background: #29282D;
+  background: #29282D;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smothing: grayscale;
 }
@@ -37,6 +38,11 @@ p {
 
 * {
   box-sizing: border-box;
+}
+
+.main-page-wrapper {
+  background: url("../img/bg/lion-header.png") center top no-repeat,
+  url("../img/bg/lion-small.png") right bottom 273px no-repeat;
 }
 
 .container {
@@ -439,7 +445,7 @@ margin-right: 0;
   text-decoration: none;
   width: 36px;
   height: 36px;
-  background: center center no repeat;
+  background: center center no-repeat;
 }
 
 .socials__item--icon--telegram .socials__link {
