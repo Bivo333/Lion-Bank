@@ -371,7 +371,7 @@ p {
   width: 490px;
   height: 505px;
   margin-top: 145px;
-  background: url("/img/decor/chess.png") center center / cover no-repeat;
+  background: url("./img/decor/chess.png") center center / cover no-repeat;
 }
 
 .about__desc {
