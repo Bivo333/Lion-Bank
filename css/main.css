@@ -4,7 +4,6 @@ body {
   font-size: 16px;
   line-height: 1.42;
   background: #29282D;
-  background: #29282D;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smothing: grayscale;
 }
@@ -40,6 +39,11 @@ p {
   box-sizing: border-box;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+}
+
 body, html {
   height: 100%;
 }
@@ -70,7 +74,7 @@ body, html {
 }
 
 .header {
-  padding-top: 33px;
+  padding-top: 27px;
   margin-bottom: 30px;
   display: flex;
   justify-content: space-between;
@@ -196,6 +200,10 @@ body, html {
 
 .btn--color--brown:hover {
   background: #DFB56D;
+}
+
+.btn--color--black {
+  background: #29282D;
 }
 
 .offers {
@@ -477,8 +485,8 @@ body, html {
   align-items: center;
 }
 
-.footer__col footer__col--align--right {
-  align-items: flex-end;
+.footer__col--align--right {
+  justify-content: flex-end;
 }
 
 .socials {
@@ -533,4 +541,96 @@ margin-right: 0;
 
 .socials__item--icon--insta .socials__link:hover {
   background-image: url("../img/icons/insta-hover.png");
+}
+
+/* services page*/
+
+.top-line {
+  min-height: 412px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 24px;
+  background: #29282D url("../img/bg/lion-head-wide.png") right 50% top no-repeat;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  line-height: 84.38px;
+  font-weight: bold;
+  margin-bottom: 36px;
+}
+
+.breadcrumbs__list {
+  display: flex;
+  align-items: center;
+}
+
+.breadcrumbs__item {
+  display: flex;
+  padding-left: 2px;
+  align-items: center;
+}
+
+.breadcrumbs__item--active .breadcrumbs__link {
+  font-weight: bold; 
+  text-decoration: none;
+}
+
+.breadcrumbs__item:after {
+  padding-left: 2px;
+  content: "/";
+  color: #9A9A9A;
+}
+
+.breadcrumbs__item:first-child {
+  padding-left: 0px;
+}
+
+.breadcrumbs__item:last-child:after {
+  display: none;  
+}
+
+.breadcrumbs__link {
+  color: #9A9A9A;
+  font-size: 14px;;
+}
+
+.page-content {
+  background-color: #fff;
+  color: #303030;
+  padding: 98px 0;
+}
+
+.service {
+  display: flex;
+  /* padding: 40px 30px; */
+  text-decoration: none;
+}
+
+.service__img {
+  width: 175%;
+  margin-right: 5%;
+}
+
+.service__content {
+  flex: 1;
+}
+
+.service__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 48px;
+  columns: #202020;
+}
+
+.service__desc {
+  line-height: 1.7;
+  margin-bottom: 53px;
 }
