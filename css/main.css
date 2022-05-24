@@ -2,7 +2,7 @@ body {
   font-family: "Open Sans", Helvetica, sans-serif;
   color: #fff;
   font-size: 16px;
-  line-height: 1.42;
+  line-height: 1.4;
   background: #29282D;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smothing: grayscale;
@@ -171,7 +171,7 @@ body, html {
 .btn {
   background: #DFB56D;
   border-radius: 3px;
-  padding: 17px 38px 16px 39px;
+  padding: 15px 38px 15px 39px;
   color: #fff;
   font-size: 14px;
   font-weight: bold;
@@ -616,7 +616,7 @@ margin-right: 0;
 
 .service__img {
   width: 175%;
-  margin-right: 5%;
+  margin-right: 4%;
 }
 
 .service__content {
@@ -627,10 +627,15 @@ margin-right: 0;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 48px;
+  margin-right: 25px;
   columns: #202020;
 }
 
 .service__desc {
   line-height: 1.7;
-  margin-bottom: 53px;
+  margin-bottom: 107px;
+}
+
+.service__desc p {
+  margin-bottom: 49px;
 }
