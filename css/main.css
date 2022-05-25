@@ -481,13 +481,16 @@ body, html {
   margin-top: auto;
 }
 
+.footer-container__section {
+  height: 150px;
+  margin-top: 28px;
+}
+
 .footer-container__content {
   border-top: 1px solid #fff;
 }
 
-.footer{
-  margin-top: 28px;
-  height: 152px;
+.footer{  
   position: relative;
   display: flex;
   align-items: center;
@@ -709,3 +712,10 @@ margin-right: 0;
   filter: grayscale(0);
 }
 
+.inner-footer__container {
+  padding: 50px 0;
+}
+
+.inner-footer{
+  margin-top: auto;
+}
