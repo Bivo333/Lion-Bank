@@ -377,6 +377,20 @@ body, html {
   align-items: center;
 }
 
+.pager--theme--light{
+  color: #000000;
+}
+
+.pager--theme--light .pager__item--active .pager__link {
+  color: #fff;
+  background: #353439;
+}
+
+.pager--theme--light .pager__link:hover {
+  color: #fff;
+  background: #353439;
+}
+
 .pager__display {
   margin-right: 25px;
 }
@@ -608,10 +622,22 @@ margin-right: 0;
   padding: 98px 0;
 }
 
+.services {
+  margin-bottom: 0px; /*в уроке был отступ 65px, мне не понадобился*/
+}
+
 .service {
   display: flex;
-  /* padding: 40px 30px; */
+  /* padding: 40px 30px; */ /*в уроке был отступ 65px, мне не понадобился*/
   text-decoration: none;
+}
+
+.service:hover {
+  background: #F5F5F5;
+}
+
+.service:hover .btn {
+  background: #DFB56D;
 }
 
 .service__img {
@@ -639,3 +665,47 @@ margin-right: 0;
 .service__desc p {
   margin-bottom: 49px;
 }
+
+.inner-section {
+  background: #F2F2F2;
+  color: #202020;
+  padding: 88px 0;
+}
+
+.inner-section--bg--grey {
+  background: #F4F5F5;
+}
+
+.inner-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 75px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap; /* 2й вариант madgin-botton -46px */
+}
+
+.partners__item {
+  margin-left: 46px;  
+}
+
+.partners__item:nth-child(4n+1) { /* это 1й вариант*/
+  margin-left: 0;                 /* 2й - закомитить 1й и добавить madgin-botton -46px блоку обёртке*/
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  justify-content: center;
+  filter: grayscale(100%);
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+}
+
