@@ -801,6 +801,7 @@ html {
 }
 
 .review__content-text {
+  line-height: 1.69;
   margin-bottom: 48.5px;
 }
 
