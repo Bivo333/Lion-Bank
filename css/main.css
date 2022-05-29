@@ -749,7 +749,7 @@ html {
 .review__header {
   display: flex;
   align-items: center;
-  margin-bottom: 54px;
+  margin-bottom: 27px;
 }
 
 .review__user {
@@ -771,6 +771,7 @@ html {
   height: 142px;
   overflow: hidden;
   border-radius: 50%;
+  margin-right: 22px;
 }
 
 .review__tags {
@@ -808,8 +809,8 @@ html {
 }
 
 .separator {
-  background: #E5C288 url("../img/decor/phone-n-hand_1.png") right 20% bottom no-repeat;
-  min-height: 363px;
+  background: #E5C288 url("../img/decor/phone-n-hand_1.png") right 27% bottom no-repeat;
+  min-height:363px;
   display: flex;
   flex-direction: column;
   justify-content: center;
