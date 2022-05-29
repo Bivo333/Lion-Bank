@@ -44,7 +44,8 @@ img {
   max-width: 100%;
 }
 
-body, html {
+body,
+html {
   height: 100%;
 }
 
@@ -58,7 +59,7 @@ body, html {
 
 .main-page-wrapper {
   background: url("../img/bg/lion-header.png") center top no-repeat,
-  url("../img/bg/lion-small.png") right bottom 273px no-repeat;
+    url("../img/bg/lion-small.png") right bottom 273px no-repeat;
 }
 
 .container {
@@ -336,7 +337,7 @@ body, html {
 .single-news {
   position: relative;
   border-radius: 3px;
-  overflow: hidden;  
+  overflow: hidden;
 }
 
 .news__item:last-child {
@@ -377,7 +378,7 @@ body, html {
   align-items: center;
 }
 
-.pager--theme--light{
+.pager--theme--light {
   color: #000000;
 }
 
@@ -490,7 +491,7 @@ body, html {
   border-top: 1px solid #fff;
 }
 
-.footer{  
+.footer {
   position: relative;
   display: flex;
   align-items: center;
@@ -517,7 +518,7 @@ body, html {
 }
 
 .socials__item:last-child {
-margin-right: 0;
+  margin-right: 0;
 }
 
 .socials__link {
@@ -596,7 +597,7 @@ margin-right: 0;
 }
 
 .breadcrumbs__item--active .breadcrumbs__link {
-  font-weight: bold; 
+  font-weight: bold;
   text-decoration: none;
 }
 
@@ -611,27 +612,30 @@ margin-right: 0;
 }
 
 .breadcrumbs__item:last-child:after {
-  display: none;  
+  display: none;
 }
 
 .breadcrumbs__link {
   color: #9A9A9A;
-  font-size: 14px;;
+  font-size: 14px;
+  ;
 }
 
 .page-content {
-  background-color: #fff;
+  background-color: #F2F2F2;
   color: #303030;
   padding: 98px 0;
 }
 
 .services {
-  margin-bottom: 0px; /*в уроке был отступ 65px, мне не понадобился*/
+  margin-bottom: 0px;
+  /*в уроке был отступ 65px, мне не понадобился*/
 }
 
 .service {
   display: flex;
-  /* padding: 40px 30px; */ /*в уроке был отступ 65px, мне не понадобился*/
+  /* padding: 40px 30px; */
+  /*в уроке был отступ 65px, мне не понадобился*/
   text-decoration: none;
 }
 
@@ -687,15 +691,18 @@ margin-right: 0;
 
 .partners {
   display: flex;
-  flex-wrap: wrap; /* 2й вариант madgin-botton -46px */
+  flex-wrap: wrap;
+  /* 2й вариант madgin-botton -46px */
 }
 
 .partners__item {
-  margin-left: 46px;  
+  margin-left: 46px;
 }
 
-.partners__item:nth-child(4n+1) { /* это 1й вариант*/
-  margin-left: 0;                 /* 2й - закомитить 1й и добавить madgin-botton -46px блоку обёртке*/
+.partners__item:nth-child(4n+1) {
+  /* это 1й вариант*/
+  margin-left: 0;
+  /* 2й - закомитить 1й и добавить madgin-botton -46px блоку обёртке*/
 }
 
 .partners__link {
@@ -716,20 +723,26 @@ margin-right: 0;
   padding: 50px 0;
 }
 
-.inner-footer{
+.inner-footer {
   margin-top: auto;
 }
 
 /* reviews page */
+
+.reviews {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 76px;
+}
 
 .reviews__item {
   margin-bottom: 17px;
 }
 
 .review {
-  display: flex;
+  display: inline-flex;
   flex-direction: column;
-  padding: 50px 30px;
+  padding: 50px 31px 33px 28px;
   background: #F4F5F5;
 }
 
@@ -749,8 +762,8 @@ margin-right: 0;
 }
 
 .review__user:after {
- content: url("../img/icons/vk-blue.png");
- height: 30px;
+  content: url("../img/icons/vk-blue.png");
+  height: 30px;
 }
 
 .avatar {
@@ -781,7 +794,7 @@ margin-right: 0;
   font-size: 30px;
   color: #202020;
   font-weight: bold;
-  margin-bottom: 23px;  
+  margin-bottom: 23px;
 }
 
 .review__content-text {
@@ -793,4 +806,3 @@ margin-right: 0;
   font-weight: bold;
   color: #1A1B1E;
 }
-
