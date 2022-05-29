@@ -808,7 +808,7 @@ html {
 }
 
 .separator {
-  background: #E5C288 url("./img/decor/phone-n-hand_1.png") right 20% bottom no-repeat;
+  background: #E5C288 url("../img/decor/phone-n-hand_1.png") right 20% bottom no-repeat;
   min-height: 363px;
   display: flex;
   flex-direction: column;
