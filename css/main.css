@@ -806,3 +806,22 @@ html {
   font-weight: bold;
   color: #1A1B1E;
 }
+
+.separator {
+  background: #E5C288 url("../img/decor/phone-n-hand_1.png") right 20% bottom no-repeat;
+  min-height: 363px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #202020;
+}
+
+.separator__content {
+  max-width: 45%;
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1.1;
+}
