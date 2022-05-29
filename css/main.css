@@ -49,6 +49,12 @@ html {
   height: 100%;
 }
 
+buttom{
+  background: transparent;
+  bottom: none;
+  cursor: pointer;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -205,6 +211,14 @@ html {
 
 .btn--color--black {
   background: #29282D;
+}
+
+.btn--color--gray {
+  background: #8E8E8E;
+}
+
+.btn--color--gray:hover {
+  background: #2B2B2B;
 }
 
 .offers {
@@ -890,3 +904,15 @@ html {
   display: none;
 }
 
+.form__btns {
+display: flex;
+justify-content: flex-end;
+}
+
+.form__btn {
+  margin-right: 22px;
+}
+
+.form__btn:last-child {
+ margin-bottom: 0; 
+}
