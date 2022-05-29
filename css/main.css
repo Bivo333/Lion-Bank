@@ -858,6 +858,25 @@ html {
   height: 235px;
 }
 
+.form__controls {
+  display: flex;
+  margin-bottom: 35px;
+}
+
+.form__controls-title {
+  width: 30%;
+}
+
+.controls {
+  flex: 1;
+  display: flex;
+  flex-wrap: wrap;  
+}
+
+.controls__item {
+  margin-bottom: 10px;
+}
+
 .controls__elem {
   cursor: pointer;
 }
@@ -866,6 +885,7 @@ html {
   background: #B9EAE4;
 }
 
-/* .controls__checkbox {
+.controls__checkbox {
   display: none;
-} */
+}
+
