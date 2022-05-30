@@ -575,7 +575,7 @@ buttom{
   background-image: url("../img/icons/insta-hover.png");
 }
 
-/* services page*/
+/* services page */
 
 .top-line {
   min-height: 412px;
@@ -916,3 +916,28 @@ justify-content: flex-end;
 .form__btn:last-child {
  margin-bottom: 0; 
 }
+
+/* welcome page */
+
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/bg/splash.png") center bottom / cover no-repeat;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.central__logo {
+  margin-bottom: 59px;
+}
+
