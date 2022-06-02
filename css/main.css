@@ -787,6 +787,7 @@ buttom{
   align-items: center;
   justify-content: center;
   filter: grayscale(100%);
+  transition: filter .5s;
 }
 
 .partners__link:hover {
@@ -912,13 +913,17 @@ buttom{
 .form__input {
   flex: 1;
   margin-right: 28px;
-  border-radius: 5px;
-  border-color: #E5C288;
-  border: none;
+  border-radius: 5px;  
+  border: 1px solid transparent;
+  outline: #E5C288;
   background: #fff;
   padding: 20px 30px;
   font-size: 18px;
   color: #1A1B1E;
+}
+
+.form__input:focus {
+  border: 1px solid #E5C288;
 }
 
 .form__input::placeholder {
