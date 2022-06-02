@@ -448,11 +448,11 @@ buttom{
 .pager {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center;  
 }
 
 .pager--theme--light {
-  color: #000000;
+  color: #000000;  
 }
 
 .pager--theme--light .pager__item--active .pager__link {
@@ -491,6 +491,7 @@ buttom{
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
+  transition: background .5s, color .5s;
 }
 
 .pager__link:hover {
