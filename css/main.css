@@ -64,8 +64,8 @@ buttom{
 }
 
 .main-page-wrapper {
-  background: url("../img/bg/lion-header.png") center top no-repeat,
-    url("../img/bg/lion-small.png") right bottom 273px no-repeat;
+  background: url("../img/bg/lion-header.jpg") center top no-repeat,
+    url("../img/bg/lion-small.jpg") right bottom 273px no-repeat;
 }
 
 .container {
@@ -491,7 +491,7 @@ buttom{
   text-decoration: none;
   font-weight: bold;
   line-height: 32px;
-  transition: background .5s, color .5s;
+  transition: background .25s, color .25s;
 }
 
 .pager__link:hover {
@@ -519,7 +519,7 @@ buttom{
   width: 490px;
   height: 505px;
   margin-top: 145px;
-  background: url("../img/decor/chess.png") center center / cover no-repeat;
+  background: url("../img/decor/chess.jpg") center center / cover no-repeat;
   display: block;
 }
 
@@ -601,6 +601,7 @@ buttom{
   width: 36px;
   height: 36px;
   background: center center no-repeat;
+  transition: background .25s;
 }
 
 .socials__item--icon--telegram .socials__link {
@@ -642,7 +643,7 @@ buttom{
   display: flex;
   flex-direction: column;
   padding-bottom: 24px;
-  background: #29282D url("../img/bg/lion-head-wide.png") right 50% top no-repeat;
+  background: #29282D url("../img/bg/lion-head-wide.jpg") right 50% top no-repeat;
 }
 
 .top-line__container {
@@ -887,7 +888,7 @@ buttom{
 }
 
 .separator {
-  background: #E5C288 url("../img/decor/phone-n-hand_1.png") right 27% bottom no-repeat;
+  background: #E5C288 url("../img/decor/phone-n-hand.png") right 27% bottom no-repeat;
   min-height: 363px;
   display: flex;
   flex-direction: column;
@@ -923,7 +924,7 @@ buttom{
 }
 
 .form__input:focus {
-  border: 1px solid #E5C288;
+  border-color: #E5C288;
 }
 
 .form__input::placeholder {
