@@ -1103,7 +1103,9 @@ justify-content: flex-end;
   height: 100%;
   align-items: center;
   justify-content: center;
-  background: url("../img/logo-video/bg.png") center bottom / cover no-repeat;
+  background: 
+  url("../img/logo-video/rec.png") center center no-repeat,
+  url("../img/logo-video/bg.png") center bottom / cover no-repeat;
 }
 
 .central--video {
